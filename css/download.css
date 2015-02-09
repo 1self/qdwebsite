@@ -1,0 +1,25 @@
+#plugins {
+    width: 100%;
+}
+.container.dark {
+    background: #656565;
+    color: white;
+    border-radius: 8px;
+}
+.download-container #signup .row {
+    margin-bottom: 50px;
+}
+.download-container #signup .row:last-child {
+    margin-bottom: 0px;
+}
+.download-logo {
+    width: 100%;
+}
+.instruction .row {
+    padding: 5px 15px 19px 15px;
+    text-align: left;
+}
+/*.download-container .row h1 {
+    font-size: 70px;
+}
+*/

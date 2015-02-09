@@ -1,0 +1,220 @@
+@media (min-width: 768px) {
+    .modal-dialog {
+        width: 400px;
+        margin: 18px 100px 18px auto;
+        float: right;
+    }
+    .instruction .single-download-btn {
+        padding: 5px 51px;
+    }
+    .navbar .container {
+        width: 98%;
+    }
+    .navbar-inverse .navbar-collapse {
+        height: auto!important;
+    }
+    .contact-us-icon {
+        width: 84px;
+    }
+    .contact-us-text {
+        font-size: 18px;
+        margin-top: 30px;
+    }
+    .more-info-subtitle-big {
+        line-height: 45px;
+    }
+    .more-info-wrapper .more-info-subtitle-small {
+        text-align: left;
+    }
+    .more-info .custom-heading {
+        margin-bottom: 27px;
+    }
+    .navbar-inverse .navbar-nav > li > a {
+        border-radius: 4px;
+    }
+    .navbar-nav > li > a.custom-login {
+        margin-left: 5px;
+    }
+    .download-container section.white {
+        min-height: 350px;
+    }
+    .nav{
+        padding-bottom: 3px;
+    }
+}
+@media (max-width: 867px) {
+    .navbar-inverse .navbar-nav > li > a{
+        padding-left: 8px;
+        padding-right: 8px;
+
+    }
+}
+@media (max-width: 767px) {
+    .plan h1 {
+        font-size: 24px
+    }
+    .plan h2, .download-container h3 {
+        font-size: 20px
+    }
+    .quick-instruction p {
+        font-size: 16px
+    }
+    .navbar-nav > li > a.custom-signup, .custom-signup {
+        margin-left: 0;
+    }
+    .container .navbar-collapse {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        margin-left: 0!important;
+    }
+    .custom-heading {
+        margin-top: 72px;
+        font-size: 25px;
+    }
+    .padding-left-right-zero {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .custom-container {
+        width: 89%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .instruction .download-head-section {
+        padding-bottom: 0;
+    }
+    .go-img {
+        width: 67px;
+        margin: 0 0 -8px 25px;
+    }
+    .navbar .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .navbar-nav > li > a.custom-btn {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    a.dark-grey-text, a.dark-grey-text:hover {
+        text-decoration: underline;
+    }
+    .more-info-wrapper .more-info-subtitle-big, .more-info-subtitle-small {
+        text-align: center;
+    }
+    .more-info-subtitle-big, .more-info-section-heading {
+        font-size: 26px;
+        line-height: 25px;
+    }
+    .more-info-wrapper .more-info-subtitle-small {
+        font-size: 18px;
+    }
+    .more-info-wrapper .custom-heading {
+        margin-bottom: 35px;
+    }
+    .mobile-padding-left-right-zero {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .home .plan {
+        padding: 0;
+    }
+    .carousel-inner {
+        height: 175px;
+    }
+    .container > .navbar-header {
+        margin-left: 14px;
+        margin-right: 0px;
+    }
+    .sub-heading-contribute{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 700px) {
+    .download-container .instruction h1 {
+        font-size: 33px;
+    }
+    .instruction .custom-signup {
+        font-size: 23px;
+    }
+}
+@media (max-width: 556px) {
+    .download-container .instruction h1, .download-container .instruction h2 {
+        font-size: 21px;
+        margin-top: 0;
+    }
+    .go-img {
+        display: none;
+    }
+    .active-plugin-img-container .col-xs-4 {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .padding-top-bottom-zero {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .instruction-container {
+        padding-top: 40px;
+    }
+    .download-title, .install-info h1 {
+        font-size: 25px;
+    }
+    .theme-logo {
+        font-size: 17px;
+    }
+    .install-info, #mce-EMAIL.download-input, #mc-embedded-subscribe.download-input {
+        width: 90%;
+    }
+    .download-img-container .col-xs-3, .download-head-section .col-xs-3 {
+        padding: 0 5px;
+    }
+    .download-container .instruction h1 {
+        font-size: 22px;
+    }
+    .instruction .custom-signup {
+        font-size: 15px;
+    }
+}
+@media (min-width: 557px) {
+    .go-img {
+        width: 80px;
+        vertical-align: sub;
+        margin: 0 0 -14px 10px;
+    }
+    .sublime-text-go-img {
+        margin: 0 0 -18px 22px;
+    }
+}
+@media (min-width: 992px) {
+    .custom-container {
+        width: 758px;
+    }
+}
+@media (max-width: 978px) {
+    .navbar-inverse .navbar-collapse {
+        float: left!important;
+        margin-left: 0;
+    }
+    .navbar-inverse .navbar-nav > li > a {
+        font-size: 15px;
+    }
+    .theme-logo {
+        font-size: 19px;
+        margin-top: 18px;
+    }
+}
+@media (max-width: 600px) {
+    .hide-on-mobile {
+        display: none;
+    }
+    .video {
+        height: 200px;
+    }
+}
+@media (min-width: 601px) {
+    .hide-on-desktop {
+        display: none;
+    }
+}

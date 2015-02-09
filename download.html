@@ -1,0 +1,215 @@
+<div  id="download">
+    <div class="body download-container">
+        <section class="center" id="top">
+            <div class="container">
+                <div class="row">
+                    <div class='col-xs-12 padding-left-right-zero'>
+                        <span class="download-title inline-block custom-heading faint-black-text">DOWNLOADS</span>
+                     </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 center">
+                        <h3 class="download-header-info faint-black-text">Your tool is missing? Tell us! We'll email you when it's ready</h3>
+                        <div class="input-append">
+                            <!-- Begin MailChimp Signup Form -->
+                            <div id="mc_embed_signup">
+                                <form action="http://quantifieddev.us8.list-manage.com/subscribe" method="get" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form-inline" target="_blank" novalidate role="form" id="subscribe-form">
+                                    <input type="hidden" name="u" value="6cba468ceea6fc41a7d7db50e">
+                                    <input type="hidden" name="id" value="a4c3e4f25c">
+                                    <div class="form-group">
+                                        <input type="email" value="" name="MERGE0" class="input input-lg download-input " id="mce-EMAIL" placeholder="you@email.com" required>
+                                    </div>
+                                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                    <div style="position: absolute; left: -5000px;">
+                                        <input type="text" name="b_6cba468ceea6fc41a7d7db50e_36b7c99957" value="">
+                                    </div>
+
+
+                                    <div class="form-group">
+                                        <input type="submit" value="Support my tool" name="subscribe" id="mc-embedded-subscribe" class="btn btn-prominent btn-lg download-input custom-signup">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                     
+                        <a href="#contribute" target="_blank" class="contributeLink">Or fork our code and build the plugin yourself</a>
+                    </div>
+                </div>
+        </section>
+        <section class="white">
+            <div class="container center download-img-container">
+                <div class="row gap">
+
+                    <div class="col-xs-12 col-sm-12 active-plugin-img-container">
+                        <div class="col-xs-0 col-sm-0 col-md-2"></div>
+                        <div class="col-xs-3 col-sm-3 col-md-2">
+                            <a ng-click="scrollTo('sublime-text3')">
+                                <img id="plugins" src="images/sublime.png">
+                            </a>
+                        </div>
+                        <div class="col-xs-3 col-sm-3 col-md-2">
+                            <a ng-click="scrollTo('intellij')">
+                                <img id="plugins" src="images/idea.png">
+                            </a>
+                        </div>
+                        <div class="col-xs-3 col-sm-3 col-md-2">
+                            <a ng-click="scrollTo('visual-studio-details')">
+                                <img id="plugins" src="images/visualstudio.png">
+                            </a>
+                        </div>
+                        <div class="col-xs-3 col-sm-3 col-md-2">
+                            <img id="plugins" src="images/eclipse.png">
+                        </div>
+                        <div class="col-xs-0 col-sm-0 col-md-2"></div>
+                    </div>
+
+                </div>
+                <div class="row adjust-width-download gap">
+                    <div class="col-xs-12 col-sm-12 active-plugin-img-container">
+                        <div class="col-xs-0 col-sm-0 col-md-2"></div>
+                        <div class="col-xs-3 col-sm-3 col-md-2">
+                            <img id="plugins" src="images/ws.png">
+                        </div>
+                        <div class="col-xs-3 col-sm-3 col-md-2">
+                            <img id="plugins" src="images/m.png">
+                        </div>
+                        <div class="col-xs-3 col-sm-3 col-md-2">
+                            <img id="plugins" src="images/material.png">
+                        </div>
+                        <div class="col-xs-3 col-sm-3 col-md-2">
+                            <img id="plugins" src="images/vm.png">
+                        </div>
+                        <div class="col-xs-0 col-sm-0 col-md-2"></div>
+
+                    </div>
+                </div>
+                <!--   <div class="row adjust-width-download">
+
+                    <div class="col-xs-12 col-sm-12">
+                        <img id="plugins" src="images/plugin-row-2.png">
+                    </div>
+
+                </div> -->
+            </div>
+
+        </section>
+        <section class="dark-grey padding-top-zero padding-bottom-fifty" id="plug-in-conatiner">
+            <div id="sublime-text3" class="instruction-container">
+                <div class="container white-background-conatiner center instruction custom-container">
+                    <div class="row download-head-section">
+                        <div class="col-xs-3 col-sm-3">
+                            <img src="images/sublime.png" class="download-logo">
+                        </div>
+                        <div class="col-xs-9 col-sm-8">
+                            <h1>Sublime Text </h1>
+                            
+
+                        </div>
+                        <div class="col-xs-0 col-sm-1"></div>
+                    </div>
+                    <div class="row quick-instruction">
+                        <div class="col-xs-12">
+                            <p class="bold">Quickstart</p>
+                            <p>1. Open the console</p>
+                            <p>2. Paste in:</p>
+                            <p>For Sublime Text 2</p>
+                            <div hljs class="python" >import urllib2,os,hashlib;pf = 'QuantifiedDev.sublime-package';ipp = sublime.installed_packages_path();os.makedirs( ipp ) if not os.path.exists(ipp) else None;urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) );by = urllib2.urlopen( 'http://app.quantifieddev.org/' + pf.replace(' ', '%20')).read();open( os.path.join( ipp, pf), 'wb' ).write(by)</div>
+                            <p>For Sublime Text 3</p>
+                            <div hljs class="python" >import urllib.request, os, hashlib; pf = 'QuantifiedDev.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler()));by = urllib.request.urlopen('http://app.quantifieddev.org/' + pf.replace(' ', '%20') ).read();open(os.path.join(ipp, pf), 'wb').write(by)</div>
+                            <p>3. Register by following the link in the QuantifiedDev tool menu</p>
+                            <p>4. How do i see my stats</p>
+                             <div class="see-stats">
+                            <p>- Open Sublime Text Editor</p>
+                            <p>- Go to tools  &#8594; QuantifiedDev &#8594;  Go to QuantifiedDev Dashboard or CTRL + SHIFT + P  &#8594; Go to QuantifiedDev Dashboard </p>
+                            <p></p>
+                            </div>
+                            <p class="red-text get-help-msg">Struggling with download, installation or registration?&nbsp <a class="red-text bold" href="http://quantifieddev.uservoice.com" target="_blank">Get help here</a>
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="intellij" class="instruction-container">
+                <div class="container white-background-conatiner center instruction custom-container">
+                    <div class="row download-head-section">
+                        <div class="col-xs-3">
+                            <img src="images/idea.png" class="download-logo">
+                        </div>
+                        <div class="col-xs-8">
+                            <h1>IntelliJ IDEA</h1>
+                            <div class="form-group">
+                               <!--  <input type="submit" value="Download" name="download-intellij" id="mc-embedded-download" class="btn btn-prominent custom-signup btn-lg btn-sm single-download-btn">
+                                <img src="images/go.png" class="go-img">
+                                 -->
+                                  <a type="submit"  id="mc-embedded-download" class="btn btn-prominent custom-signup btn-lg btn-sm single-download-btn" href="https://github.com/QuantifiedDev/plugin-binaries/blob/master/intellijidea-plugin/quantifieddev-idea-plugin-0.13.10.beta1.zip?raw=true">Download</a> 
+                                <img src="images/go.png" class="go-img"></a>
+                            </div>
+                        </div>
+                        <div class="col-xs-1"></div>
+                    </div>
+                    <div class="row quick-instruction">
+                        <div class="col-xs-12">
+                            <p class="bold">Quickstart</p>
+                            <p>1. Download the intellij plugin - it works with all versions</p>
+                            <p>2. Open plugin preferences and choose install from disk</p>
+                            <p>3. Register by following the link in the tool window with the QD logo</p>
+                            <p>4. How do i see my stats</p>
+                            <div class="see-stats">
+                                <p>- Open Intellij Idea</p>
+                                <p>- Go to File -> Settings(Ctrl + Alt + S) -> Quantified Dev Settings</p>
+                                <p>- Copy streamid</p>
+                                <p>- Go to http://quantifieddev.azurewebsites.net/app </p>
+                                <p>- Paste the streamid in 'streamid' textbox</p>
+                                <p>- Go back to IntelliJIdea and copy read token</p>
+                                <p>- Go back to website and paste the read token in 'read token' textbox</p>
+                                <p>- Click 'Save'. </p>
+                                 <p>Now as you build your projects from Idea, you can see corresponding stats reflected on the website<a href="http://app.quantifieddev.org/dashboard">http://app.quantifieddev.org/dashboard</a> </p>       
+                                <p></p>
+                                 <p class="red-text get-help-msg">Struggling with download, installation or registration?&nbsp <a class="red-text bold" href="http://quantifieddev.uservoice.com" target="_blank">Get help here</a>
+                                </p>
+                         </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="visual-studio-details" class="instruction-container">
+                <div class="container white-background-conatiner center instruction custom-container">
+                    <div class="row download-head-section">
+                        <div class="col-xs-3">
+                            <img src="images/visualstudio.png" class="download-logo">
+                        </div>
+                        <div class="col-xs-8">
+                            <h1>Visual Studio</h1>
+                            <div class="form-group">
+                                <!-- <input type="submit" value="Download 2012" name="download-visual-studio" id="mc-embedded-download" class="btn btn-prominent custom-signup btn-lg btn-sm">
+                                 -->
+                                 <a value="Download 2012" id="mc-embedded-download" class="btn btn-prominent custom-signup btn-lg btn-sm" href="https://github.com/QuantifiedDev/plugin-binaries/blob/master/visualstudio-plugin/quantifieddev-visualstudio2012-plugin-0.2.0.beta.vsix?raw=true">Download 2012</a>
+                                 
+                                <!-- <input type="submit" value="Download 2013" name="download-visual-studio" id="mc-embedded-download" class="btn btn-prominent custom-signup btn-lg btn-sm"> -->
+                                <a type="submit" id="mc-embedded-download" class="btn btn-prominent custom-signup btn-lg btn-sm" href="https://github.com/QuantifiedDev/plugin-binaries/blob/master/visualstudio-plugin/quantifieddev-visualstudio2013-plugin-0.2.0.beta.vsix?raw=true">Download 2013</a>
+                            </div>
+                        </div>
+                        <div class="col-xs-1"></div>
+                    </div>
+                    <div class="row quick-instruction">
+                        <div class="col-xs-12 padding-top-bottom-zero">
+                            <p class="bold">Quickstart</p>
+                            <p>1. Download the plugin version that matches your visual studio</p>
+                            <p>2. Doble click to install</p>
+                            <p>3. Register manually by entering your stream id and read token from the tool window in the dashboard</p>
+                            <p></p>
+                             <p class="red-text get-help-msg">Struggling with download, installation or registration?&nbsp <a class="red-text bold" href="http://quantifieddev.uservoice.com" target="_blank">Get help here</a>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        </div>
+        <div id="top-button" onclick="goToTop();" class="go-to-top">
+            <img src="images/Button-Up.png">
+        </div>
+    </div>
